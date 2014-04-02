@@ -1,4 +1,4 @@
-install_req:
+prospect_install_req:
   pkg.installed:
     pkgs:
       - python3

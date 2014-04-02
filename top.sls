@@ -2,3 +2,4 @@ base:
   '*':
     - dumbfuzz
     - prospector
+    - remoteX
