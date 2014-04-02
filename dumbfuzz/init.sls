@@ -8,7 +8,8 @@ dumbfuzz_install_req:
     - name: test
     - shell: /bin/bash
     - home: /home/test
-    - system: True
+    - groups:
+      - sudo
   ssh_known_hosts.present:
     - name: github.com
     - user: test
