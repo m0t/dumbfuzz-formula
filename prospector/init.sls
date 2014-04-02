@@ -26,4 +26,4 @@ prospect_install_req:
     - submodules: True
     - always_fetch: True
     - require:
-      - pkg: git
+      - pkg: prospect_install_req
