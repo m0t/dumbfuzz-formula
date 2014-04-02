@@ -1,6 +1,6 @@
 prospect_install_req:
   pkg.installed:
-    pkgs:
+    - pkgs:
       - python3
       - gdb
       - python3-pip
