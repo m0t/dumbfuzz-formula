@@ -26,4 +26,4 @@ dumbfuzz_install_req:
     - submodules: True
     - always_fetch: True
     - require:
-      - pkg: git
+      - pkg: dumbfuzz_install_req
