@@ -4,6 +4,7 @@ dumbfuzz_install_req:
       - python3
       - gdb
       - python3-pip
+      - git
   user.present:
     - name: test
     - shell: /bin/bash
