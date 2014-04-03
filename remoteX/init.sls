@@ -1,7 +1,8 @@
 remote_install_req:
-  cmd.run:
-    - name: apt-get -y install --no-install-recommends ubuntu-desktop
   pkg.installed:
     - pkgs:
-      - vnc4server
+      - xrdp
+      - xfce4
       - gnome-terminal
+  cmd.run:
+    name: echo xfce4-session >~/.xsession
