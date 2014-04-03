@@ -5,4 +5,4 @@ remote_install_req:
       - xfce4
       - gnome-terminal
   cmd.run:
-    name: echo xfce4-session >~/.xsession
+    - name: echo xfce4-session >~/.xsession
