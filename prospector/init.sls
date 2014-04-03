@@ -22,6 +22,7 @@ prospect_install_req:
     - target: /home/test/dumbfuzz
     - user: test
     - force: True
+    - rev: master
     - force_checkout: True
     - submodules: True
     - always_fetch: True
