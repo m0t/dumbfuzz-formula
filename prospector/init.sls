@@ -19,7 +19,7 @@ prospect_install_req:
       - user: test
   git.latest:
     - name: git@github.com:m0t/prospector.git
-    - target: /home/test/dumbfuzz
+    - target: /home/test/prospector
     - user: test
     - force: True
     - rev: master
