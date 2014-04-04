@@ -5,6 +5,8 @@ prospect_install_req:
       - gdb
       - python3-pip
       - git
+      - python-gevent
+      - python-mechanize
   user.present:
     - name: test
     - shell: /bin/bash
