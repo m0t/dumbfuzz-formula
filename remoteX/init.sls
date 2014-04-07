@@ -5,8 +5,10 @@ remote_install_req:
       - xfce4
       - gnome-terminal
       - cifs-utils
-  cmd.run:
-    - name: echo xfce4-session >~/.xsession
+
+/home/test/.xsession:
+  file.append:
+    - text: xfce4-session
     
 /home/test/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
   file.replace:
