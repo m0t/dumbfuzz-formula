@@ -31,3 +31,4 @@ dumbfuzz_install_req:
       - pkg: dumbfuzz_install_req
   cmd.run:
     - name: pip3 install --upgrade psutil
+    - unless: pip3 list |grep psutil|grep 2\.
