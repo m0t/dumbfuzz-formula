@@ -29,3 +29,5 @@ dumbfuzz_install_req:
     - always_fetch: True
     - require:
       - pkg: dumbfuzz_install_req
+  cmd.run:
+    - name: pip3 install --upgrade psutil
