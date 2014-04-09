@@ -16,3 +16,17 @@ remote_install_req:
     - repl: <property name="&lt;Super&gt;Tab"  type="empty"/>
     - require:
       - pkg: remote_install_req
+
+{#    
+/etc/xrdp.ini:
+  file.blockreplace:
+    - marker_start: [xrdp1]
+    - marker_end: [xrdp2]
+    - content: 
+        name=sesman-Xvnc
+        lib=libvnc.so
+        username=ask
+        password=ask
+        ip=127.0.0.1
+        port=5910
+#}    
