@@ -19,7 +19,7 @@ dumbfuzz_install_req:
     - require:
       - user: test
   git.latest:
-    - name: git@github.com:m0t/dumbfuzz-c.git
+    - name: https://github.com/m0t/dumbfuzz-c.git
     - target: /home/test/dumbfuzz
     - user: test
     - force: True

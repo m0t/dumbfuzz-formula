@@ -20,7 +20,7 @@ prospect_install_req:
     - require:
       - user: test
   git.latest:
-    - name: git@github.com:m0t/prospector.git
+    - name: https://github.com/m0t/prospector.git
     - target: /home/test/prospector
     - user: test
     - force: True
